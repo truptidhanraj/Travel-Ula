@@ -1,0 +1,39 @@
+
+
+.heading{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(2, 2, 105);
+    font-weight: 700;
+    font-style: italic;
+    margin: 20px;
+    
+}
+
+.info{
+    text-align: left;
+    font-size: 18px;
+    font-weight: 600;
+    font-style: italic;
+    color:rgb(80, 77, 77);
+    padding-left: 100px;
+    
+
+}
+
+@media screen and (max-width: 768px) {
+    .heading {
+        font-size: 20px;
+        text-align: left;
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+    .info {
+        font-size: 12px;
+        text-align: left;
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+    
+} 
+    
