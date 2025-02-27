@@ -23,7 +23,23 @@ const Home = () => {
 <div className='flex'>
 <p className='para'>Join us on this unforgettable journey of your life time. </p>
 </div>
-      
+<div className="testimonials">
+        <h2>What Our Clients Say</h2>
+        <div className="testimonial-container">
+          <div className="testimonial">
+            <p>"This tour was amazing! The guides were knowledgeable and friendly."</p>
+            <h3>John Doe</h3>
+          </div>
+          <div className="testimonial">
+            <p>"I had a great time on this tour. The scenery was breathtaking."</p>
+            <h3>Jane Smith</h3>
+          </div>
+          <div className="testimonial">
+            <p>"This tour exceeded my expectations. The food was delicious and the accommodations were comfortable."</p>
+            <h3>Bob Johnson</h3>
+          </div>
+        </div>
+      </div>
     <p className='msg'>Thank You!</p>
     </div>
   );
